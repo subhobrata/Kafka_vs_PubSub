@@ -47,7 +47,7 @@ Each service publishes events that other services subscribe to, creating a loose
 - Use **Kafka** when you need fine-grained control over retention, strong ordering, and on-prem or hybrid deployments.
 - Choose **Pub/Sub** for a serverless approach that scales automatically with minimal operational overhead in Google Cloud.
 
-## Running Locally
+## Example Code
 
-This repository contains documentation only. There is no runnable code, but you can adapt these concepts to your own implementation.
+Sample Python helper functions are available in `src/messaging.py` to demonstrate producing and consuming messages. Configure a Kafka broker or Google Cloud credentials, then import and use these utilities in your scripts.
 
